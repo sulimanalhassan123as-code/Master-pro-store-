@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suleiman Play Store | Test Repo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-theme="light">
+
+  <header class="top-header">
+    <div class="header-top">
+      <div class="logo-area" onclick="showView('home-view')">
+        <img src="icons/suleiman-logo.png" alt="Logo" class="main-logo" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'40\' height=\'40\'><circle cx=\'20\' cy=\'20\' r=\'20\' fill=\'green\'/></svg>'">
+        <h2>Suleiman Play Store</h2>
+      </div>
+      <select id="theme-select">
+        <option value="light">☀️ Light</option>
+        <option value="dark">🌙 Dark</option>
+        <option value="green">🕌 Islamic</option>
+      </select>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="🔍 Search Apps (e.g. Islamic, Tech)...">
+    </div>
+    <nav class="main-nav">
+      <button onclick="showView('home-view')">Home</button>
+      <button onclick="document.getElementById('categories-section').scrollIntoView()">Categories</button>
+      <button onclick="document.getElementById('featured-section').scrollIntoView()">Trending</button>
+    </nav>
+  </header>
+
+  <main id="app-container">
+
+    <div id="home-view" class="view-screen active-view">
+      
+      <section id="featured-section">
+        <h3>🔥 Trending Apps</h3>
+        <div class="horizontal-scroll" id="trending-container"></div>
+        
+        <h3>📈 Most Downloaded</h3>
+        <div class="horizontal-scroll" id="downloaded-container"></div>
+        
+        <h3>🆕 New Apps</h3>
+        <div class="horizontal-scroll" id="new-container"></div>
+      </section>
+
+      <section id="categories-section">
+        <h3>📂 App Categories</h3>
+        <div class="grid-container" id="category-cards-container"></div>
+      </section>
+    </div>
+
+    <div id="category-view" class="view-screen">
+      <button class="back-btn" onclick="showView('home-view')">⬅ Back to Home</button>
+      <h2 id="cat-view-title">Category Name</h2>
+      <p id="cat-view-count" class="sub-text">Total Apps: 0</p>
+      <div id="cat-view-list" class="vertical-list"></div>
+    </div>
+
+    <div id="app-detail-view" class="view-screen">
+      <button class="back-btn" onclick="goBackToCategory()">⬅ Back to Category</button>
+      <div id="detail-view-content"></div>
+      
+      <hr class="divider">
+      <h3>🔗 Related Apps</h3>
+      <div id="related-apps-list" class="vertical-list"></div>
+    </div>
+
+    <div id="search-view" class="view-screen">
+      <button class="back-btn" onclick="showView('home-view')">⬅ Clear Search</button>
+      <h2>Search Results</h2>
+      
+      <div id="search-categories-results">
+        <h3>Categories Found</h3>
+        <div id="search-cat-list"></div>
+      </div>
+
+      <div id="search-apps-results">
+        <h3>Apps Found</h3>
+        <div id="search-app-list" class="vertical-list"></div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
