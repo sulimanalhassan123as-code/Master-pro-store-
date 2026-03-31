@@ -1,0 +1,23 @@
+[
+  {
+    "id": "islamic-google",
+    "title": "Islamic Google🔎",
+    "desc": "The ultimate Islamic knowledge search engine. Find accurate answers instantly.",
+    "icon": "icons/islamic-google-icon-front-512x512.png",
+    "iconBack": "icons/islamic-google-icon-back-512x512.png",
+    "url": "https://islamic-google-final.vercel.app",
+    "category": "islamic",
+    "rating": "4.9",
+    "installs": "1.2M+",
+    "likes": "150K",
+    "reviews": [
+      {"user": "Ahmed Y.", "stars": 5, "comment": "MashaAllah, the best search tool for students!"},
+      {"user": "Fatima S.", "stars": 5, "comment": "Very clean and fast. Highly recommended."}
+    ]
+  },
+  {
+    "id": "dhikr-counter-pro",
+    "title": "Dhikr Counter PRO",
+    "desc": "A luxury digital tasbih for your daily remembrance with haptic feedback.",
+    "icon": "icons/dhikr-counter-pro-icon-front-512x512.png",
+    "iconBack": "icons/dhikr-counter-pro-icon-back-512x512.png",
