@@ -1,3 +1,17 @@
+// Add this to the very top of js/main.js
+window.onerror = function(msg, url, linenumber) {
+    alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber);
+    return true;
+}
+
+// Check if JSON loads
+fetch('apps.json')
+  .then(response => {
+    if (!response.ok) throw new Error("JSON file not found (404)");
+    return response.json();
+  })
+  .catch(err => alert("Data Error: " + err.message));
+
 // Database State
 let allApps = [];
 let currentCategoryContext = null;
