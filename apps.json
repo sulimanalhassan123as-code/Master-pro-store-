@@ -2,81 +2,60 @@
   {
     "id": "islamic-google",
     "title": "Islamic Google 🔎",
-    "desc": "The ultimate Islamic knowledge search engine.",
-    "icon": "icons/islamic-google-icon-front-512x512.png",
-    "iconBack": "icons/islamic-google-icon-back-512x512.png",
+    "desc": "The ultimate Islamic knowledge search engine for accurate results.",
     "url": "https://islamic-google-final.vercel.app",
     "category": "islamic",
-    "rating": "4.9",
-    "installs": "5k",
-    "likes": "1.2k",
-    "comments": "230",
+    "likes": "4.8k",
+    "installs": "12,500+",
     "isTrending": true,
-    "isMostDownloaded": true,
-    "isNew": false
+    "comments": [
+      {"name": "Musa Ibrahim", "text": "This makes finding Hadith so much faster! Highly accurate."},
+      {"name": "Aisha Bello", "text": "The dark mode is very easy on the eyes during night study."},
+      {"name": "Imam Hassan", "text": "A wonderful initiative for the Ummah. JazakAllah Khair."}
+    ]
   },
   {
     "id": "dhikr-counter-pro",
-    "title": "Dhikr Counter PRO",
-    "desc": "A luxury digital tasbih for your daily remembrance.",
-    "icon": "icons/dhikr-counter-pro-icon-front-512x512.png",
-    "iconBack": "icons/dhikr-counter-pro-icon-back-512x512.png",
+    "title": "Dhikr Counter PRO 📿",
+    "desc": "A luxury digital tasbih with haptic feedback and goal tracking.",
     "url": "https://dhikr-counter-pro.vercel.app",
     "category": "islamic",
-    "rating": "4.8",
-    "installs": "3k",
-    "likes": "900",
-    "comments": "120",
-    "isTrending": false,
-    "isMostDownloaded": false,
-    "isNew": true
+    "likes": "8.2k",
+    "installs": "50,000+",
+    "isNew": true,
+    "comments": [
+      {"name": "Kwame Mensah", "text": "The vibration feedback feels very high-quality."},
+      {"name": "Zainab Yusuf", "text": "The emerald and gold theme is absolutely stunning."},
+      {"name": "Fuseina S.", "text": "I use this every single morning after Fajr. So smooth!"}
+    ]
   },
   {
     "id": "secure-scanner",
-    "title": "Secure Scanner",
-    "desc": "Advanced network vulnerability scanner.",
-    "icon": "icons/secure-scanner-front.png",
-    "iconBack": "icons/secure-scanner-back.png",
+    "title": "Secure Scanner 🛡️",
+    "desc": "Professional grade network vulnerability scanner for tech enthusiasts.",
     "url": "#",
     "category": "cybersecurity",
-    "rating": "5.0",
-    "installs": "5k",
-    "likes": "1.2k",
-    "comments": "230",
-    "isTrending": true,
-    "isMostDownloaded": false,
-    "isNew": false
-  },
-  {
-    "id": "password-guard",
-    "title": "Password Guard",
-    "desc": "Military-grade password encryption tool.",
-    "icon": "icons/password-guard-front.png",
-    "iconBack": "icons/password-guard-back.png",
-    "url": "#",
-    "category": "cybersecurity",
-    "rating": "4.7",
-    "installs": "3k",
-    "likes": "900",
-    "comments": "120",
-    "isTrending": false,
+    "likes": "2.1k",
+    "installs": "5,400+",
     "isMostDownloaded": true,
-    "isNew": false
+    "comments": [
+      {"name": "Sani Adams", "text": "Found a major port vulnerability on my router. Essential tool!"},
+      {"name": "Emmanuel Tetteh", "text": "Works perfectly on Termux. Very lightweight script."},
+      {"name": "TechGuru_99", "text": "The UI is clean for a security tool. Great job."}
+    ]
   },
   {
-    "id": "business-chat",
-    "title": "Never Hide Chat",
-    "desc": "Secure communication hub.",
-    "icon": "icons/business-chat-icon-front-512x512.png",
-    "iconBack": "icons/business-chat-icon-back-512x512.png",
+    "id": "never-hide-chat",
+    "title": "Never Hide Chat 💬",
+    "desc": "Secure, multi-room real-time communication hub.",
     "url": "https://sulieman-alhassan-a-pro.vercel.app",
     "category": "tech",
-    "rating": "4.6",
-    "installs": "1k",
-    "likes": "500",
-    "comments": "50",
-    "isTrending": false,
-    "isMostDownloaded": false,
-    "isNew": true
+    "likes": "1.5k",
+    "installs": "2,200+",
+    "comments": [
+      {"name": "Kojo Owusu", "text": "The latency is almost zero. Best chat app for our team."},
+      {"name": "Abu Ali", "text": "The lobby system makes it very easy to organize groups."},
+      {"name": "Fatima Ahmed", "text": "Finally, a chat app that prioritizes privacy!"}
+    ]
   }
 ]
